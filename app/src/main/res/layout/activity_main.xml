@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="@color/colorPrimary"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+
+        <Button
+            android:id="@+id/linear_rv_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:drawableStart="@drawable/linearview"
+            android:drawableLeft="@drawable/linearview"
+            android:drawablePadding="8dp"
+            android:text="Linear RecyclerView"
+            android:layout_marginBottom="15dp"
+            android:textAllCaps="false"
+            android:textStyle="bold"
+            android:textColor="@android:color/white"
+            android:background="@color/colorPrimaryDark"/>
+
+
+        <Button
+            android:id="@+id/grid_rv_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableStart="@drawable/gridview"
+            android:drawableLeft="@drawable/gridview"
+            android:drawablePadding="8dp"
+            android:padding="15dp"
+            android:text="Grid RecyclerView"
+            android:layout_marginBottom="15dp"
+            android:textAllCaps="false"
+            android:textStyle="bold"
+            android:textColor="@android:color/white"
+            android:background="@color/colorPrimaryDark"
+             />
+
+        <Button
+            android:id="@+id/staggered_rv_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:drawableStart="@drawable/staggeredview"
+            android:drawableLeft="@drawable/staggeredview"
+            android:drawablePadding="8dp"
+            android:text="Staggered RecyclerView"
+            android:textAllCaps="false"
+            android:textStyle="bold"
+            android:textColor="@android:color/white"
+            android:background="@color/colorPrimaryDark"/>
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>
